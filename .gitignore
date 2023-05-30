@@ -45,7 +45,7 @@ wheels/
 .installed.cfg
 *.egg
 *.manifest
-passos.txt
+Passo*.txt
 *.spec
 
 # Installer logs
