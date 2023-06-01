@@ -1,0 +1,29 @@
+Django Passo 2 - Iniciando Porjeto
+
+- comando o projeto
+--No terminal com o ambiente viurtual ativado começamos o proejto
+> django-admin startproject <nome do porjeto> . <nao esquecer esse ponto ai da frente>
+> django-admin startproject projeto .
+> python manage.py runserver
+
+-- Só usando o django-admin quando for começar o proejto
+- no decorrer do curso usamos
+> python manage.py
+
+- Comecar um novo app
+> python manage.py startapp recipes
+
+
+- Render
+ele vai redenrizar o arquivo html
+criar a pasta templatyes que o rende ja busca na pasta certa
+Vai no arquivo settings.pu do projeto em INSTALLED_APPS e informar que tem apps tambem 
+
+-- Duas chaves no djangoé para exibir  {{ }}
+isso é legal pq podemos passar coisas para dentro do template por exemplo uma lista empython que criamos em views tipo assim
+return render(request, 'recipes/home.html', context={
+    'name':'Nayara Bernardo'}
+
+então em home
+    <h1> Recipes by {{ name }}</h1>
+	Recipes by Nayara Bernardo
