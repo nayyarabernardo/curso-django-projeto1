@@ -46,6 +46,7 @@ wheels/
 *.egg
 *.manifest
 Passo*.txt
+Passo_*.txt
 *.spec
 
 # Installer logs
