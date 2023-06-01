@@ -1,0 +1,28 @@
+Django Passo 1 - Configurações
+
+- criar um ambiente virtual
+>python -m pip install pip setuptoolls wheel --upgrade
+
+> python -m venv venv
+- Ativar ambiente virtual no windows 
+>.\venv\Scripts\activate
+- Desativar ambiente virtual
+> deactivate
+
+- Instalações
+> pip install django
+> django-admin --version
+> python.exe -m pip install --upgrade pip
+
+- Configurar o Git e o GitHub
+> Criar o repositorio no GitHub
+> git config --global user.name "Nayara Bernardo"
+> git config --global user.email "nayyarabernardo@gmail.com"
+> git config --global init.defaultBranch main
+
+> git init
+> ssh-keygen
+-- ele vai identificar onde esta o arquivo ssh e copia esse conteudo do arquivo e vai no github em configurações
+--ssh e new ai adicona o ssh do nosso computador 
+> git remote add origin https://github.com/nayyarabernardo/curso-django-projeto1.git
+> git remote -v
