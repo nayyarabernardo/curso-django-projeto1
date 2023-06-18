@@ -9,4 +9,20 @@ def home(request):
         'name': 'Nayara Bernardo'
     })
 
+def recipe(request, id):
+    return render(request, 'recipes/pages/repice-view.html', context={
+        'name': 'Nayara',
+    })
+
+
+#teste HUPDATA
+def teste(request):
+    return render(request, 'recipes/pages/teste.html')
+
+def atualizar_serie(request):
+    return render(request, 'recipes/pages/atualizar_serie.html')
+
+
+
+
 
